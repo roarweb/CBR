@@ -221,7 +221,7 @@
             <a class="nav-link active" aria-current="page" href="https://www.cbr.com.pa">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">About me</a>
           </li>
                           <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -243,8 +243,8 @@
   </nav>
 
     <section>
-        <h2>About us</h2>
-        <p>Are you looking for reliable and expert legal advice in real estate in Panama? As a lawyer and real estate broker, we offer a comprehensive service to ensure every transaction is secure, efficient, and beneficial for our clients. </p>
+        <h2>About me</h2>
+        <p>Are you looking for reliable and expert legal advice in real estate agent and attorney at law in Panama? As a lawyer and real estate broker, we offer a comprehensive service to ensure every transaction is secure, efficient, and beneficial for our clients. </p>
         <p>We specialize in buying, selling, renting, and property management, as well as providing legal advice on immigration procedures, tax planning, contracts, and real estate-related litigation. Whether you're a foreign investor or a local resident, our personalized approach ensures solutions tailored to your needs. </p>
         <p>Discover how we can help you maximize your opportunities in Panama's dynamic real estate market. Contact us today! </p>
         <div id="cta-container"></div>

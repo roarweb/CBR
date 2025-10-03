@@ -21,7 +21,7 @@ const createCallToAction = () => {
 
     // Agregar la descripción
     const description = document.createElement('p');
-    description.innerHTML = "My name is <strong>Oliver Rodriguez</strong>, a professional <strong>Real Estate Agent</strong> based in <strong>Panama, Republic of Panama</strong>. Whether you're buying, selling, or investing, I'm here to guide you every step of the way.";
+    description.innerHTML = "My name is <strong>Oliver Rodriguez</strong>, a professional <strong>Real Estate Agent</strong> based in <strong>Panama, Republic of Panama</strong>.<br> Whether you're buying, selling, or investing, I'm here to guide you every step of the way.";
     description.style.color = '#555';
     description.style.marginBottom = '20px';
     ctaDiv.appendChild(description);
@@ -31,12 +31,12 @@ const createCallToAction = () => {
     contactDetails.style.marginBottom = '20px';
 
     const phone = document.createElement('p');
-    phone.innerHTML = '<strong>Phone:</strong> +507 64262272';
+    phone.innerHTML = '<strong>Whatsapp:</strong> +50764262272';
     phone.style.margin = '5px 0';
     contactDetails.appendChild(phone);
 
     const email = document.createElement('p');
-    email.innerHTML = '<strong>Email:</strong> <a href="mailto:info@rodriguezarrocha.com" style="color: #007BFF; text-decoration: none;">info@rodriguezarrocha.com</a>';
+    email.innerHTML = '<strong>Email:</strong> <a href="mailto:oliver@cbr.com.pa" style="color: #007BFF; text-decoration: none;">oliver@cbr.com.pa</a>';
     email.style.margin = '5px 0';
     contactDetails.appendChild(email);
 
@@ -70,7 +70,7 @@ const createCallToAction = () => {
                 console.log("Token de reCAPTCHA:", token);
 
                 // Redirigir al usuario después de la validación
-                window.location.href = "mailto:info@rodriguezarrocha.com";
+                window.location.href = "mailto:oliver@cbr.com.pa";
             });
         });
     });

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     if (contactButton) {
         contactButton.addEventListener("click", function () {
-            const email = "info@rodriguezarrocha.com";
+            const email = "oliver@cbr.com.pa";
             const subject = encodeURIComponent("Consulta sobre servicios legales");
             const body = encodeURIComponent("Hola, me gustaría obtener más información sobre sus servicios.");
             
